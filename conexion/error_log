@@ -1,0 +1,2 @@
+[19-Jul-2016 20:28:52 America/Chicago] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (42000/1044): Access denied for user 'cbtised5_abr_ap'@'localhost' to database 'cbtised5_escuela' in /home/cbtised5/public_html/conexion/db_connect.php on line 3
+[19-Jul-2016 20:28:52 America/Chicago] PHP Fatal error:  Call to undefined method mysqli::mysqli_connect_errno() in /home/cbtised5/public_html/conexion/db_connect.php on line 5

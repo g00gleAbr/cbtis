@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+<link rel="stylesheet" type="text/css" href="js/sweetalert/dist/sweetalert2.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/animacion.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="shortcut icon" href="img/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8"/>
+	<title>Servicios</title>
+</head>
+<body oncontextmenu="return false">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/sweetalert/dist/sweetalert2.min.js"></script>
+<!--Contenido-->
+<div class="navbar-fixed">
+<!--dropdowns-->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a class="waves-effect waves-teal" href="cafeteria.html">Cafetería</a></li>
+  <li><a class="waves-effect waves-teal" href="biblioteca.html">Biblioteca</a></li>
+  <li><a class="waves-effect waves-teal" href="verdes.html">Áreas verdes</a></li>
+  <li><a class="waves-effect waves-teal" href="deportivas.html">Áreas deportivas</a></li>
+  <li><a class="waves-effect waves-teal" href="lectura.html">Salón de lectura</a></li>
+  <li><a class="waves-effect waves-teal" href="auditorio.html">Ver más</a></li>
+</ul>
+<ul id="dropdown3" class="dropdown-content">
+  <li><a class="waves-effect waves-teal" href="administracion.html">Administración</a></li>
+  <li><a class="waves-effect waves-teal" href="ofimatica.html">Ofimática</a></li>
+  <li><a class="waves-effect waves-teal" href="programacion.html">Programación</a></li>
+  <li><a class="waves-effect waves-teal" href="construccion.html">Construcción</a></li>
+  <li><a class="waves-effect waves-teal" href="contabilidad.html">Contabilidad</a></li>
+</ul>
+<div id="top"></div>
+<nav class="fondo-marino nav-margin">
+		<div class="nav-wrapper row container">
+		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="left hide-on-med-and-down">
+				<li><a class="waves-effect waves-light" href="index.php">Inicio</a></li>
+		        <li><a class="waves-effect waves-light" href="galeria.php">Galería</a></li>
+		        <li><a class="waves-effect waves-light" href="requisitos.html">Requisitos</a></li>
+		        <li><a class="waves-effect waves-light dropdown-button" href="#!" data-activates="dropdown3">Especialidades<i class="material-icons right">arrow_drop_down</i></a></li>
+		        <li><a class="waves-effect waves-light dropdown-button" href="#!" data-activates="dropdown1">Instalaciones<i class="material-icons right">arrow_drop_down</i></a></li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+        		<li><a class="waves-effect waves-light" href="index.php">Inicio</a></li>
+		        <li><a class="waves-effect waves-light" href="galeria.php">Galería</a></li>
+		        <li><a class="waves-effect waves-light" href="requisitos.html">Requisitos</a></li>
+		        <li><a class="waves-effect waves-light" href="administracion.html">Especialidades</a></li>
+		        <li><a class="waves-effect waves-light" href="cafeteria.html">Instalaciones</a></li>
+		        <li><a class="waves-effect waves-light" href="becas.html">Servicios</a></li>
+      		</ul>
+		</div>
+</nav>
+</div>
+<section id="top-bar">
+	<h4 class="header white-text">Servicios</h4>
+  <div>
+    <ul style="padding-left: 30px;">
+      <li class="nav-beca"><a href="#ancla">Becas</a></li>
+      <li class="nav-beca"><a href="#ancla1">Titulación</a></li>
+      <li class="nav-beca"><a href="#ancla2">Tutorías</a></li>
+    </ul>
+  </div>
+</section>
+<!--Becas-->
+<section>
+  <div class="section white">
+    <div class="row container">
+      <h5>Becas Media Superior</h5>
+      <a href="http://www.becasmediasuperior.sep.gob.mx/" target="_blank">Ir al programa de becas</a>
+      <br><br>
+      <!--Misión y vision-->
+      <center id="ancla">
+        <a class="waves-effect waves-light btn modal-trigger boton-redondo" href="#modal1">Misión</a>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>Misión</h4>
+              <p>La CBSEMS tiene como misión otorgar apoyos monetarios a estudiantes de escasos recursos económicos, que cursan el bachillerato, con el objeto de contribuir a compensar sus desventajas y accedan a los servicios educativos, permanezcan en ellos y logren aprendizajes en mejores condiciones.</p>
+            </div>
+        </div>
+        <a class="waves-effect waves-light btn modal-trigger boton-redondo" href="#modal2">Vision</a>
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <h4>Visión</h4>
+            <p>La CBSEMS tiene la confianza de los becarios y el reconocimiento de las autoridades educativas. Su operación se fundamenta en la práctica de la imparcialidad, transparencia, orientación al estudiante, rendición de cuentas y eficiencia, además de un fuerte compromiso de su personal con los estudiantes beneficiarios de los programas de becas.</p>
+          </div>
+        </div>
+      </center>
+        <br>
+      <!--Objetivos-->
+       <ul class="collapsible popout" data-collapsible="accordion">
+          <li>
+              <div class="collapsible-header"><i class="material-icons">school</i>Objetivo general del programa nacional de becas</div>
+              <div class="collapsible-body"><p>Contribuir a asegurar mayor cobertura, inclusión y equidad educativa entre todos los grupos de la población para la construcción de una sociedad más justa, mediante el otorgamiento de becas y estímulos a estudiantes y profesores de instituciones públicas que permitan consolidar un México con educación de mayor calidad.</p></div>
+          </li>
+          <li>
+              <div class="collapsible-header"><i class="material-icons">public</i>Objetivo general de la CBSEMS</div>
+              <div class="collapsible-body"><p>Otorgar becas a estudiantes de educación media superior para favorecer el desarrollo de sus actividades académicas, con el fin de promover la conclusión de sus estudios.​</p></div>
+          </li>
+      </ul>
+      <!--Tipos de beca-->
+      <br>
+      <article class="row">
+         <h5>Revisa las becas que tenemos para ti:</h5>
+         <div class="col s3">
+             <a href="img/becas/discapacidad.pdf" target="_blank"><img width="200" class="responsive-img" src="img/becas/discapacidad.png" />Discapacidad</a>    
+         </div>
+         <div class="col s3">
+             <a href="img/becas/excelencia.pdf" target="_blank"><img width="200" src="img/becas/excelencia.png" class="responsive-img" />Excelencia</a>
+         </div>
+         <div class="col s3">
+             <a href="img/becas/permanencia.pdf" target="_blank"><img width="200" src="img/becas/permanencia.png" class="responsive-img" />Permanencia</a>
+         </div>
+         <div class="col s3">
+             <a href="img/becas/transporte.pdf" target="_blank"><img width="200" src="img/becas/transporte.png" class="responsive-img" />Transporte</a>
+         </div>
+
+      </article>
+      <br>
+      <article class="row">
+        <h4>¿Ya viste?</h4>
+        <h6>¡Tenemos nueva beca!</h6>
+        <img src="img/becas/BecaTalento2.gif" class="responsive-img">
+        <p>El propósito de este tipo de becas es identificar el talento intelectual sobresaliente e impulsar el desarrollo<br>académico de los estudiantes durante el bachillerato.</p>
+        <h5>Te interesó, ¿Verdad?</h5>
+        <p>Puedes revisar un poco más en el siguiente enlace:</p>
+        <a href="PDF/talento.pdf" target="_blank"><b>Beca Talento</b></a>
+        <p>O también puedes visitar la página oficial:</p>
+        <a href="http://www.becasmediasuperior.sep.gob.mx/" target="_blank"><b>Becas Media Superior</b></a>
+      </article>
+    </div>
+  </div>
+</section>
+<br>
+<!--Titulación-->
+<section class="row" id="ancla1">
+  <div class="row container">
+    <h4>Titulación</h4>
+      <center>
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal3">¿Qué es?</a>
+          <div id="modal3" class="modal">
+            <div class="modal-content">
+              <h4>¿Qué es la titulación?</h4>
+              <p>La titulación es un proceso académico-administrativo, en el cual el egresado comprueba los conocimientos adquiridos en su formación académica a nivel técnico o técnico profesional permitiéndole el ejercicio profesional de la especialidad cursada.</p>
+            </div>
+          </div>
+        </center>
+        <br><br>
+        <!--Requisitos-->
+  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">done</i>El alumno deberá cumplir lo siguiente</div>
+      <div class="collapsible-body"><p>
+        Haber acreditado al 100% las materias del plan de estudios de la especialidad cursada.
+        <br>
+        Haber cumplido con su servicio social y prácticas profesionales conforme a las normas institucionales establecidas.<br>
+        El proceso de titulación, se llevará a cabo una vez que el interesado haya entregado toda la documentación que integra su expediente.<br>
+        <b>Para obtener el título profesional, la D.G.E.T.I. establecerá las siguientes opciones de titulación:</b>
+        <br><br>
+        A. TITULACIÓN AUTOMÁTICA.-<br>Se realizará cuando el alumno acredite todas las asignaturas del componente básico y propedéutico con calificación de 6 o superior,<br> lo cual se comprobará con las constancias de competencias que tendrás que solicitar en control escolar,<br> cuando hayas acreditado el módulo de la especialidad con una calificación de 8, 9 o 10. <br>Solicitaras por escrito en la oficina de titulación, el trámite y fecha para su protocolo de titulación entregando toda la documentación requerida.<br><br>
+        B. TITULACIÓN POR EXPERIENCIA LABORAL.-<br>Esta se realiza cuando se demuestre como mínimo un año de experiencia laboral,<br> a través de la memoria profesional y la constancia de la empresa donde se desempeña y/o se desempeñó profesionalmente,<br> siempre y cuando la memoria refiera las aplicaciones en el trabajo de los conocimientos y competencias adquiridas en la carrera que se cursó.<br> La memoria profesional son informes de todas las actividades de seis meses.<br><br>
+        C. DISEÑO DE PROTOTIPOS O PROYECTOS INNOVADORES DE DESARROLLO TECNOLÓGICOS.-<br> Cuando el interesado demuestre haberlo realizado a través de la memoria correspondiente,<br> siempre y cuando la memoria técnica se refiera a las aplicaciones de los conocimientos y competencias<br> adquiridas en la carrera que se cursó. La participación podrá ser individual o en equipo (máximo 2 integrantes).<br> Los prototipos deberán estar encaminados a resolver algún problema, necesidad u oportunidad detectada en el plantel, comunidad, mercado o sector productivo.
+        <p>Una vez que hayas elegido la opción de titulación, es indispensable cumplir con los requisitos según sea la opción elegida; para mayor información acudir al área de titulación. DOCUMENTOS</p>
+      </p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">description</i>Documentos requeridos</div>
+      <div class="collapsible-body"><p>
+        <ol>
+          <li>Para la opción automática (por promedio) solicitar por escrito a control escolar las 5 cartas de competencias.</li>
+          <li>Acta de nacimiento reciente, original y 2 copias.</li>
+          <li>Certificado de secundaria, original y copia.</li>
+          <li>Certificado de bachillerato, original y copia.</li>
+          <li>Carta de acreditación de servicio social, original y copia.</li>
+          <li>Carta de acreditación de prácticas profesionales, original y copia.</li>
+          <li>CURP, 2 copias impresas desde el portal: <a href="https://consultas.curp.gob.mx/CurpSP/">http://consultas.curp.gob.mx/CurpSP</a></li>
+          <li>6 Fotografías tamaño infantil, 6 fotografías tamaño diploma (blanco y negro, fondo blanco en papel mate, camisa blanca o beige, frente descubierta, para mujeres poco maquillaje).</li>
+          <li>Solicitud de pago bancario, solicitarla en el área de titulación.</li>
+          <li>El pago del título, se realizará en Bancomer, IMPORTANTE QUE LOS DATOS DE TU RECIBO SEAN CORRECTOS, DE LO CONTRARIO TU PAGO NO TENDRÁ VALIDEZ, REVISAR QUE EL RECIBO SEA IMPRESO CON LA TINTA SUFICIENTE PARA SU CLARIDAD</li>
+          <li>Folder tamaño carta color beige y folder tamaño oficio color beige.</li>
+        </ol>
+      </p></div>
+    </li>
+    </ul>
+</div>
+</section>
+<!--Tutorias-->
+<section id="ancla2">
+  <div class="section white">
+    <div class="row container">
+      <h4>Tutorías</h4>
+        <ul class="collapsible popout" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header blue-text">Metas de las tutorías</div>
+            <div class="collapsible-body">
+              <ol>
+                <li>Contribuir a la formación integral de los estudiantes a través de la tutoría entendida como el acompañamiento al proceso educativo de cada tutorado.</li>
+                <br>
+                <li>Elevar el nivel educativo de los planteles de la DGETI en Michoacán a través de la tutoría entendida como una práctica educativa, ética, humana y centrada en los alumnos.</li>
+              </ol>
+            </div>
+          </li>
+        <li>
+            <div class="collapsible-header blue-text">Caractetístias recomendables de un tutor</div>
+            <div class="collapsible-body">
+              <ol>
+                <li>Elevar el nivel educativo de los planteles de la DGETI en Michoacán a través de la tutoría entendida como una práctica educativa, ética, humana y centrada en los alumnos.</li><br>
+                <li>Discreción y respeto con la información personal que conozca sobre su tutorado.</li><br>
+                <li>Actitud cordial y optimismo en el proceso evolutivo de los alumnos.</li>
+                <li>Confianza en si mismo; Así como, habitos y actitudes de superación, respeto hacia su entorno y por su persona.</li><br>
+                <li>Saber escuchar y ser justo y razonable en su actos y opiniones.</li>
+              </ol>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header blue-text">¿Quien es el/la tutor/a?</div>
+            <div class="collapsible-body">
+              <ol>
+                <li>Es un docente que acompañara a los alumnos durante su proceso educativo.</li><br>
+                <li>Alguien dispuesto a escuchar y apoyar el desarrollo cognitivo y psicosocial de los alumnos.</li><br>
+                <li>Un docente respetuoso de la personalidad de los alumnos y de sus decisiones.</li><br>
+                <li>Quien aplica técnicas y herramientas educativas que favorecen el aprendizaje y el desarrollo integral de los alumnos.</li>
+              </ol>
+            </div>
+        </li>
+        <li>
+          <div class="collapsible-header blue-text">Principales funciones de las tutorías</div>
+            <div class="collapsible-body">
+              <ol>
+                <li>Entrevistas personalizadas con: Alumnos, padres de familia y docentes.</li><br>
+                <li>Detección de alumnos de alto riesgo y aplicación de actividades remediales.</li><br>
+                <li>Diseño y aplicación de estrategias de aprendizaje a nivel individual y de grupo.</li><br>
+                <li>Aplicación de técnicas y dinámicas de grupo que favorezcan el desarrollo psicosocial de los alumnos.</li><br>
+                <li>Acompañar a los estudiantes en su trayectoria académica y en la toma de decisiones escolares.</li><br>
+                <li>Apoya las acciones institucionales para la orientación vocacional y profesional de los estudiantes.</li>
+              </ol>
+            </div>
+          </li>
+            </li>
+        </li>
+      </ul>
+<center>
+  <a class="btn-floating btn-large waves-effect waves-light red tooltipped" data-position="bottom" data-delay="50" data-tooltip="Volver Arriba" href="#top"><i class="material-icons">keyboard_arrow_up</i></a>
+</center>
+    </div>
+  </div>
+</section>
+<br>
+ <div class="divider"></div>
+<p class="center-align azul-marino">
+        Centro de Bachillerato Tecnológico industrial y de servicios N° 204<br>
+        Tlalpujahua de Rayón, Mich.<br>
+        Km. 39 + 000 Carretera Maravatio-Tlalpujahua C.P. 61060<br>
+        Tel. (01-711) 1 58 09 71 ; Tel / Fax (01-711) 1 58 02 13<br>
+        </p>
+       <br>
+<div class="center-align">
+  <img src="img/CBTis.png" width="150" height="150">
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80239486-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+$(function(){
+     $('a[href*=#]').click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+             var $target = $(this.hash);
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+             if ($target.length) {
+                 var targetOffset = $target.offset().top;
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+                 return false;
+            }
+       }
+   });
+});
+</script>
+<script type="text/javascript">
+	$(".dropdown-button").dropdown();
+	$(".button-collapse").sideNav();
+	$(document).ready(function(){
+  $('.parallax').parallax();
+});
+</script>
+<script type="text/javascript">
+   $(document).ready(function(){
+    $('.modal-trigger').leanModal();
+  });
+</script>
+</body>
+</html>
